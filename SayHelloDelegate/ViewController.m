@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
 
 @end
 
@@ -22,6 +23,18 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"goToSecondVC"]) {
+        SecondViewController *secondVC = segue.destinationViewController;
+        secondVC.delegate = self;
+    }
+}
+
+-(void)sayHelloMethod:(NSString *)text{
+    self.myLabel.text = text;
+    NSLog(@"inside helloMethod");
 }
 
 @end

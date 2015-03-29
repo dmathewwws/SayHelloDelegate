@@ -14,6 +14,7 @@
 		AF892F761AC4C61400FA3C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF892F751AC4C61400FA3C93 /* Images.xcassets */; };
 		AF892F791AC4C61400FA3C93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF892F771AC4C61400FA3C93 /* LaunchScreen.xib */; };
 		AF892F851AC4C61500FA3C93 /* SayHelloDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF892F841AC4C61500FA3C93 /* SayHelloDelegateTests.m */; };
+		AF892F901AC4C67700FA3C93 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF892F8F1AC4C67700FA3C93 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AF892F7E1AC4C61500FA3C93 /* SayHelloDelegateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SayHelloDelegateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF892F831AC4C61500FA3C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF892F841AC4C61500FA3C93 /* SayHelloDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SayHelloDelegateTests.m; sourceTree = "<group>"; };
+		AF892F8E1AC4C67700FA3C93 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AF892F8F1AC4C67700FA3C93 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AF892F6D1AC4C61400FA3C93 /* AppDelegate.m */,
 				AF892F6F1AC4C61400FA3C93 /* ViewController.h */,
 				AF892F701AC4C61400FA3C93 /* ViewController.m */,
+				AF892F8E1AC4C67700FA3C93 /* SecondViewController.h */,
+				AF892F8F1AC4C67700FA3C93 /* SecondViewController.m */,
 				AF892F721AC4C61400FA3C93 /* Main.storyboard */,
 				AF892F751AC4C61400FA3C93 /* Images.xcassets */,
 				AF892F771AC4C61400FA3C93 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF892F901AC4C67700FA3C93 /* SecondViewController.m in Sources */,
 				AF892F711AC4C61400FA3C93 /* ViewController.m in Sources */,
 				AF892F6E1AC4C61400FA3C93 /* AppDelegate.m in Sources */,
 				AF892F6B1AC4C61400FA3C93 /* main.m in Sources */,
